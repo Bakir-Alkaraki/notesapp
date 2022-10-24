@@ -10,6 +10,7 @@ import 'app/notes/edit.dart';
 late SharedPreferences sharedPref;
 
 void main() async {
+  // Push
   WidgetsFlutterBinding.ensureInitialized();
   sharedPref = await SharedPreferences.getInstance();
 
